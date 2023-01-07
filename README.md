@@ -1,8 +1,8 @@
 # UE5-Shaders101
 
-我好菜啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+我菜炸了
 
-Learn shaders from Youtube [Ben Cloward](https://www.youtube.com/@BenCloward)
+Learn shaders from YouTube [Ben Cloward](https://www.youtube.com/@BenCloward)
 
 [UE4 Material Editor - Shader Creation](https://www.youtube.com/playlist?list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs)
 
@@ -10,10 +10,12 @@ Learn shaders from Youtube [Ben Cloward](https://www.youtube.com/@BenCloward)
 
 [Advanced Materials](https://www.youtube.com/playlist?list=PL78XDi0TS4lGqHdLQGR2GHne85i9PebbN)
 
+使用HLSL需要开启HLSL Material插件。[教程链接](https://wp.me/pd2QiM-47)
+
 [HLSL Shader Creation 1](https://www.youtube.com/playlist?list=PL78XDi0TS4lEDHfahG4ddRwZ3AUrOIYcq)
 
 [HLSL Shader Creation 2](https://www.youtube.com/playlist?list=PL78XDi0TS4lE772rZflLkFe-WdhYEV4WE)
 
-[HLSL Shader Creation 3(https://www.youtube.com/playlist?list=PL78XDi0TS4lE6UnUO9OTC5M1Wo3bJLDe9)
+[HLSL Shader Creation 3](https://www.youtube.com/playlist?list=PL78XDi0TS4lE6UnUO9OTC5M1Wo3bJLDe9)
 
 
