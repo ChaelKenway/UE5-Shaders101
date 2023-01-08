@@ -92,5 +92,5 @@ Shader Graph -> HLSL -> Assembly Instructions -> Graphics Driver
 
 ### 将多张纹理合成在一张纹理中
 
-Substance Painter的ORM
+比如Substance Painter的ORM
  
