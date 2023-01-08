@@ -6,6 +6,10 @@ Learn shaders from YouTube [Ben Cloward](https://www.youtube.com/@BenCloward)
 
 [UE4 Material Editor - Shader Creation](https://www.youtube.com/playlist?list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs)
 
+Notes [here](Notes/Shader Creation.md)
+
+-----
+
 [Shader Graph Basis](https://www.youtube.com/playlist?list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl)
 
 [Advanced Materials](https://www.youtube.com/playlist?list=PL78XDi0TS4lGqHdLQGR2GHne85i9PebbN)
