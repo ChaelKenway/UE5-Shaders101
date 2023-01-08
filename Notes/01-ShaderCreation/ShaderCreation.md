@@ -36,3 +36,18 @@ TexCoord + (Noise.x, Noise.y) * Intensity 实现材质扭曲
 
 ![0105-1](0105-1.png)
 
+# 06 Environment Blending
+
+[Link](https://www.youtube.com/watch?v=QwVDlS8uiYg&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=6)
+
+使用世界空间法线B通道，在模型的上方混合一个新的材质。
+
+从法线图中提取向上方向，可以更精确地进行混合。这里需要将法线的切线空间转换到世界空间。
+
+切线空间：UVW。UV即纹理的UV，W为垂直UV远离模型表面的方向。[Wiki](https://en.wikipedia.org/wiki/Tangent_space_)
+
+世界空间：世界坐标的XYZ。Z为绝对的向上方向。
+
+[UE文档，Shader向量操作](https://docs.unrealengine.com/5.1/en-US/vector-operation-material-expressions-in-unreal-engine/#transform)
+
+![0106-1](0106-1.png)
