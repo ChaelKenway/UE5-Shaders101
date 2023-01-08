@@ -51,3 +51,7 @@ TexCoord + (Noise.x, Noise.y) * Intensity 实现材质扭曲
 [UE文档，Shader向量操作](https://docs.unrealengine.com/5.1/en-US/vector-operation-material-expressions-in-unreal-engine/#transform)
 
 ![0106-1](0106-1.png)
+
+来自UE文档，将切线空间转换到查看空间(view space)制作Billboard效果。
+
+![0106-2](0106-2.png)
