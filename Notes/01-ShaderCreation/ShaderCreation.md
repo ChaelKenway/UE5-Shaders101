@@ -30,3 +30,9 @@ TexCoord + (Noise.x, Noise.y) * Intensity 实现材质扭曲
 
 ![0104-1](0104-1.png)
 
+# 05 Flipbook Animation
+
+[Link](https://www.youtube.com/watch?v=ZWAF_f2aP9s&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=5)
+
+![0105-1](0105-1.png)
+
