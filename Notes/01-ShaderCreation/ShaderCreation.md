@@ -28,5 +28,5 @@ TexCoord + (Noise.x, Noise.y) * Intensity 实现材质扭曲
 
 可以先对noise进行偏移，再通过Texcoord加到纹理上。
 
-[0104-1](0104-1.png)
+![0104-1](0104-1.png)
 
