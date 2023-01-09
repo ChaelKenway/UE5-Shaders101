@@ -126,7 +126,7 @@ Aplha压缩：只会使用Alpha通道。
 
 # 10 Cloth Shader
 
-[Link])https://www.youtube.com/watch?v=LUfG5ojx0O4&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=10)
+[Link](https://www.youtube.com/watch?v=LUfG5ojx0O4&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=10)
 
 布料特点：
 
@@ -150,8 +150,57 @@ Aplha压缩：只会使用Alpha通道。
 
 ![0110-3](0110-3.png)
 
+# 11 Volumetric Ice Shader
 
+[Link](https://www.youtube.com/watch?v=X5WASspig3g&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=11)
 
+Other Resources: 
+
+[1](https://www.artstation.com/blogs/kanoba/Ajpj/paragon-breakdown-001-ice-shader-part-i)
+
+[2](https://80.lv/articles/developing-artistic-ice-in-unreal-engine-4/)
+
+实现“两层”的效果：冰的表面与下面。并且“下面”位置会随着摄像机角度变化而变化。
+
+![0111-1](0111-1.png)
+
+由CameraVector得到ReflectionVector，将其反向得到TransmissionVector，用来驱动UVcoord。
+
+![0111-2](0111-2.png)
+
+计算反射向量
+
+![0111-3](0111-3.png)
+
+处理反射向量。用其B和材质的分辨率控制控制纹理向内凹陷的深度。
+
+![0111-4](0111-4.png)
+
+将(0, 0, 1)替换成一张法线图，可以在表面做出凹凸的效果。其次，用一张灰度图替换Depth，可以使得不同地方的凹陷程度不同。
+
+![0111-5](0111-5.png)
+
+# 12 Rustling Leaves Shader 
+
+[Link](https://www.youtube.com/watch?v=5FxaVC5w97w&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=12)
+
+使用sine+TexCoord制作扰动效果，和一张蒙版相乘，使得不同绘制区域的树叶，运动模式不同。
+
+同时sine+Normal使得法线产生相对应扰动效果，更具有3D感。
+
+![0112-1](0112-1.png)
+
+# 13 Rain Wetness Shader
+
+[Link](https://www.youtube.com/watch?v=fYGOZYST-oQ&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=13)
+
+效果：沾水的表面会变暗，更加饱和（给Desaturation传入一个负数），粗糙度大幅降低。
+
+这里使用了材质函数。输入原材质的BaseColor, Roughness, Specular。
+
+补充一个水面的Mask，以及“渗透性”（Porousness，只影响颜色，值越高，色彩越潮湿）。这里将Roughness和Specular组成了Vector2进行运算。
+
+![0113-1](0113-1.png)
 
 
 
