@@ -58,6 +58,8 @@ TexCoord + (Noise.x, Noise.y) * Intensity 实现材质扭曲
 
 # 07 Shader Performance Optimization
 
+[Link](https://youtu.be/D8E47BJOE6E?list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs)
+
 ## 查看性能
 
 ### alt + 8
@@ -94,3 +96,71 @@ Shader Graph -> HLSL -> Assembly Instructions -> Graphics Driver
 
 比如Substance Painter的ORM
  
+# 08 Bump Offset and Parallax Occlusion Mapping
+
+[Link](https://www.youtube.com/watch?v=wc0StMr3CQo&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=8)
+
+## BumpOffset
+
+输入一张高度图，再对原有纹理采样。
+
+![0108-1](0108-1.png)
+
+## Parallax Occlusion Mapping
+
+输入纹理对象，高度比率，参考平面。节点采用射线对纹理进行采样。需要消耗更多的性能。
+
+修改Min/Max Steps改变高度的精度。
+
+# 09 Texture Compression and Settings
+
+[Link](https://www.youtube.com/watch?v=h95X255NhOo&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=9)
+
+[DXT参考资料](http://wiki.polycount.com/wiki/DXT)
+
+DXT1能使容量减少到1/8，DXT5能使容量减少到1/4。
+
+Aplha压缩：只会使用Alpha通道。
+
+如果不需要使用颜色，关闭sRGB。
+
+# 10 Cloth Shader
+
+[Link])https://www.youtube.com/watch?v=LUfG5ojx0O4&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=10)
+
+布料特点：
+
+1. 针织布料的边缘有些许突起的纤维，使得有亮光
+
+![0110-1](0110-1.png)
+
+2. Satin（缎子）相反，边缘更暗。直面的区域更亮。
+
+![0110-2](0110-2.png)
+
+3. 丝绸同理，面向光源或摄像机的表面更亮。
+
+[神秘海域4的布料效果](https://www.artstation.com/artwork/6kEmV)
+
+[Siggraph的ppt](http://advances.realtimerendering.com/s2010/Hable-Uncharted2(SIGGRAPH%202010%20Advanced%20RealTime%20Rendering%20Course).pdf)，布料算法在第80页。
+
+菲涅尔效果：相机向量点乘像素法线。像素法线可以用法线图（需要transform）。
+
+使用菲涅尔+反菲涅尔改变边缘或中间的亮度。
+
+![0110-3](0110-3.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
