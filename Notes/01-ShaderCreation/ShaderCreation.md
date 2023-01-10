@@ -202,7 +202,7 @@ Other Resources:
 
 ![0113-1](0113-1.png)
 
-# Rain Drops Shader
+# 14 Rain Drops Shader
 
 [Link](https://www.youtube.com/watch?v=5eyq2FJ6lig&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=14)
 
@@ -214,7 +214,7 @@ Other Resources
 
 [2](https://www.youtube.com/watch?v=ymAuk1z6f-g)
 
-雨滴效果思路
+雨滴效果思路：
 
 1. 通过改变法线（改变RG，B恒定为1）体现出雨滴。静态雨滴法线恒定，动态雨滴处的法线强度在0-1中循环。
 
@@ -223,6 +223,24 @@ Other Resources
 3. 雨滴的粗糙度非常低，反转雨滴法线的RG，提取出雨滴的区域。
 
 ![0114-1](0114-1.png)
+
+# 15 Rain Drip Shader
+
+[Link](https://www.youtube.com/watch?v=rhlV4okjkiA&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=15)
+
+效果思路：
+
+1. 提取出模型的侧面。
+
+2. 使用灰度不同的竖条，改变不同位置的流水速度。
+
+3. 使用面条状的流线，制作流水形状。
+
+4. 用很扁的长条做蒙版，乘第3步的流水。
+
+5. 水流处法线和粗糙度处理与14同理。
+
+![0115-1](0115-1.png)
 
 
 
