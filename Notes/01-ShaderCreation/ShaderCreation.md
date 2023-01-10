@@ -202,6 +202,30 @@ Other Resources:
 
 ![0113-1](0113-1.png)
 
+# Rain Drops Shader
+
+[Link](https://www.youtube.com/watch?v=5eyq2FJ6lig&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=14)
+
+[制作雨滴法线图](https://www.youtube.com/watch?v=YbiX2FhmlaU)
+
+Other Resources
+
+[1](https://www.youtube.com/watch?v=bXEzhntMnwc)
+
+[2](https://www.youtube.com/watch?v=ymAuk1z6f-g)
+
+雨滴效果思路
+
+1. 通过改变法线（改变RG，B恒定为1）体现出雨滴。静态雨滴法线恒定，动态雨滴处的法线强度在0-1中循环。
+
+2. 只有模型的上方才会有雨滴，使用VertexNormal(B)。
+
+3. 雨滴的粗糙度非常低，反转雨滴法线的RG，提取出雨滴的区域。
+
+![0114-1](0114-1.png)
+
+
+
 
 
 
