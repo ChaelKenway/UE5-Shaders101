@@ -322,7 +322,17 @@ Rain 总效果
 
 ![0118-Rain](0118-Rain.png)
 
+# 19 Procedural Noise
 
+[Link](https://www.youtube.com/watch?v=QIlxWkfZK-8&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=19)
+
+程序化噪点
+
+1. 函数：常用快速梯度-3D纹理。
+
+2. 关卡：数量越高，细节越多，性能消耗越大。
+
+3. 最小/最大输出：图像灰度的值。
 
 
 
