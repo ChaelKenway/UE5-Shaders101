@@ -276,6 +276,54 @@ Time->Frac制作从0到1不断变化的小数，-1+圆形渐变，制作向外�
 
 ![0117-2](0117-2.png)
 
+# 18 Complete Rain Shader
+
+[Link](https://www.youtube.com/watch?v=tUemJLSaFxw&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=18)
+
+Other Resources:
+
+[1](https://www.fxguide.com/fxfeatured/game-environments-partc/)
+
+[2](https://80.lv/articles/setting-up-rain-materials-in-substance-designer/)
+
+[3](https://seblagarde.wordpress.com/2013/01/03/water-drop-2b-dynamic-rain-and-its-effects/)
+
+13~17的效果集合。
+
+13——潮湿效果，14——雨滴，15——下雨流水，16——涟漪，17——水坑。
+
+Wetness 潮湿
+
+![0118-Wetness](0118-Wetness.png)
+
+RainDrop 雨滴
+
+![0118-RainDrop](0118-RainDrop.png)
+
+RainDrip 流水
+
+![0118-RainDrip](0118-RainDrip.png)
+
+RainPuddle 水坑（包含了涟漪和水面）
+
+![0118-RainPuddle](0118-RainPuddle.png)
+
+Rain 总效果
+
+* Rain控制下雨程度，影响雨滴和流水。
+
+* Wet控制整体的潮湿程度。
+
+* Puddles, Wind, Ripple控制水坑，水面，涟漪。
+
+* WetRoughness控制潮湿处的粗糙度。
+
+* 输入原材质的BaseColor, Specular, Roughness, Normal。
+
+![0118-Rain](0118-Rain.png)
+
+
+
 
 
 
