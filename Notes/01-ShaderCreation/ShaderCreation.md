@@ -356,6 +356,16 @@ Other Resources
 
 ![0121-1](0121-1.png)
 
+# 22 World-Aligned Textures 
+
+[Link](https://www.youtube.com/watch?v=pXOknekvmwE&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=22)
+
+WorldAlignedTexutre节点能将纹理3D映射到XYZ平面上，不考虑模型本身的UV。
+
+![0122-1](0122-1.png)
+
+
+
 
 
 
