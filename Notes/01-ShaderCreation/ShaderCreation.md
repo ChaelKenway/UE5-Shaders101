@@ -342,6 +342,21 @@ Rain 总效果
 
 ![0120-1](0120-1.png)
 
+# 21 Rock Layers Shader 
+
+[Link](https://www.youtube.com/watch?v=cGmWa-gETzU&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=21)
+
+Other Resources
+
+[1](https://www.youtube.com/watch?v=Ymo-izZN6UI)
+
+[2](https://www.youtube.com/watch?v=kc76I0iSUck)
+
+使用世界坐标B使得石头在世界空间的Z轴上始终保持分层的效果；加上噪波，使得每一层之间有随机的过渡效果。
+
+![0121-1](0121-1.png)
+
+
 
 
 
