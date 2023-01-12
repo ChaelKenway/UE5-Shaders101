@@ -334,6 +334,14 @@ Rain 总效果
 
 3. 最小/最大输出：图像灰度的值。
 
+# 20 Snowy Tree Trunk Shader
+
+[Link](https://www.youtube.com/watch?v=dco2ra0xAcY&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=20)
+
+使用noise在树皮材质的基础上添加上雪材质。noise输入世界坐标，使用3D纹理。
+
+![0120-1](0120-1.png)
+
 
 
 
