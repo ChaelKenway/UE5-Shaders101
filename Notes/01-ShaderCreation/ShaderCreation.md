@@ -404,7 +404,7 @@ WorldAlignedTexutre节点能将纹理3D映射到XYZ平面上，不考虑模型�
 
 * Depth Color Gradient [ x ]  蒙版：黑色看得清，白色看不清。
 
-* Depth Opacity [ ]
+* Depth Opacity [ x ]
 
 * Reflection [ ]
 
