@@ -364,6 +364,34 @@ WorldAlignedTexutre节点能将纹理3D映射到XYZ平面上，不考虑模型�
 
 ![0122-1](0122-1.png)
 
+# 23 Water Ripples Shader
+
+[Link](https://www.youtube.com/watch?v=r68DnTMeFFQ&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=23)
+
+水的特征：
+
+1. 波纹。
+
+2. 随深度改变颜色，浅水几乎是透明的。
+
+3. 反射。垂直看向水面时，能看到底部；几乎平行看时，反射很明亮。
+
+4. look through水时，波纹和涟漪使得看到的水下的物体产生扭曲形状。
+
+关键点：
+
+* Surface Ripples [x]
+
+* Depth Color Gradient [ ]
+
+* Depth Opacity [ ]
+
+* Reflection [ ]
+
+* Refraction [ ]
+
+![0123-1](0123-1.png)
+
 
 
 
