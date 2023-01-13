@@ -372,7 +372,7 @@ WorldAlignedTexutre节点能将纹理3D映射到XYZ平面上，不考虑模型�
 
 1. 波纹。
 
-2. 随深度改变颜色，浅水几乎是透明的。
+2. 随深度改变颜色。浅水几乎是透明的，越深越看不清下面的东西。
 
 3. 反射。垂直看向水面时，能看到底部；几乎平行看时，反射很明亮。
 
@@ -393,6 +393,50 @@ WorldAlignedTexutre节点能将纹理3D映射到XYZ平面上，不考虑模型�
 将两张水面法线进行平移并叠加。另外再叠加一张大的法线。最后还可以加上下雨效果。
 
 ![0123-1](0123-1.png)
+
+# 24 Water Depth Shader
+
+[Link](https://www.youtube.com/watch?v=TObymSnTwV0&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=24)
+
+关键点：
+
+* Surface Ripples [ x ]
+
+* Depth Color Gradient [ x ]  蒙版：黑色看得清，白色看不清。
+
+* Depth Opacity [ ]
+
+* Reflection [ ]
+
+* Refraction [ ]
+
+把上一期的材质改成半透明。
+
+两个表示深度的节点： Scene Depth / Pixel Depth
+
+Scene Depth表示从摄像机出发，一路到不透明物体的距离。Pixel Depth表示当前像素点到摄像机的距离
+
+SceneDepth - PixelDepth代表看到的水面深度。
+
+![0124-1](0124-1.png)
+
+改进：真正的深度应该是水面竖直朝下的长度。
+
+![0124-2](0124-2.png)
+
+Shader里的数学分析（也许是对的）。减去水平面的世界Z相当于变换坐便系到O'。
+
+![0124-3](0124-3.JPG)
+
+加上菲涅尔效果（加白色），越是平行看向水面，越看不清下面的东西（蒙版越白）。连入之前的法线，将PixelNormal连入菲涅尔。
+
+修改光照模式：表面半透明体积。
+
+乘DepthFade柔化物体与水面接触的边界。
+
+![0124-4](0124-4.png)
+
+
 
 
 
