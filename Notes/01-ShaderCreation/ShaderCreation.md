@@ -424,7 +424,7 @@ SceneDepth - PixelDepth代表看到的水面深度。
 
 ![0124-2](0124-2.png)
 
-Shader里的数学分析（也许是对的）。减去水平面的世界Z相当于变换坐便系到O'。
+Shader里的数学分析（也许是对的）。减去水平面的世界Z相当于变换坐标系到O'。
 
 ![0124-3](0124-3.JPG)
 
@@ -436,9 +436,43 @@ Shader里的数学分析（也许是对的）。减去水平面的世界Z相当�
 
 ![0124-4](0124-4.png)
 
+# 25 Water Reflection & Refraction Shader
 
+[Link](https://www.youtube.com/watch?v=8-GCauULKLY&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=25)
 
+关键点：
 
+* Surface Ripples [ x ]
+
+* Depth Color Gradient [ x ]  蒙版：黑色看得清，白色看不清。
+
+* Depth Opacity [ x ]
+
+* Reflection反射 [ x ] 
+
+* Refraction折射 [ x ]
+
+## 反射
+
+使用屏幕空间反射方法。SSR只能在水中显示当前屏幕中物体的反射效果。
+
+左侧细节面板勾选“屏幕空间反射”。
+
+## 折射
+
+只需要输入折射率。水用1.333.
+
+左侧细节面板：折射-折射模式-像素正常偏移。
+
+其他公式相同。
+
+在水面与物体接触的边缘处（DepthFade节点）做一点调整。
+
+* 颜色插值不用经过DepthFade的结果。
+
+* Lerp，交界处折射为1（几乎无折射）。
+
+![0125-1](0125-1.png)
 
 
 
