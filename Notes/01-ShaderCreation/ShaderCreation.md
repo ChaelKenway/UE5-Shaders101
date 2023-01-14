@@ -478,7 +478,7 @@ Shader里的数学分析（也许是对的）。减去水平面的世界Z相当�
 
 [Link](https://www.youtube.com/watch?v=BJSMVvZMQ1w&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=26&t=171s)
 
-这玩意要细分，虚幻5把这个功能移除了。
+这玩意要细分，但是虚幻5把这个功能移除了。
 
 # 27 Water Caustics 
 
@@ -496,6 +496,25 @@ Shader里的数学分析（也许是对的）。减去水平面的世界Z相当�
 
 -----
 
+# 30 Foliage Translucency 
+
+[Link](https://www.youtube.com/watch?v=Tap2N0_ZBRw&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=30)
+
+太阳光透过叶子的发光效果。
+
+材质选择“双面植物”，使用次表面颜色即可。
+
+![0130-1](0130-1.png)
+
+# 31 Foliage Texture Packing 
+
+[Link](https://www.youtube.com/watch?v=MtZd1g0aKiY&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=31)
+
+如何将多张贴图组合在一起？以及如何在shader中调整灰度强度。
+
+制作SubsurfaceColor的蒙版时，先减（除去树枝）后乘（增加树叶灰度）；粗糙度可以直接将蒙版反向，原先树叶为白色，反转后为灰色（低粗糙度）。
+
+![0131-1](0131-1.png)
 
 
 
