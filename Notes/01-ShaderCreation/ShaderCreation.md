@@ -474,9 +474,27 @@ Shader里的数学分析（也许是对的）。减去水平面的世界Z相当�
 
 ![0125-1](0125-1.png)
 
+# 26 Water Gerstner Waves
 
+[Link](https://www.youtube.com/watch?v=BJSMVvZMQ1w&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=26&t=171s)
 
+这玩意要细分，虚幻5把这个功能移除了。
 
+# 27 Water Caustics 
+
+[Link](https://www.youtube.com/watch?v=9z6EMsoqLDY&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=27)
+
+# 28 Water Foam
+
+[Link](https://www.youtube.com/watch?v=oI_q5g3580I&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=28)
+
+# 29 Water Flow Maps
+
+[Link](https://www.youtube.com/watch?v=9N-pQNPChxU&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=29)
+
+到25，已经有一个还可以的水效果。26~29先不看，准备看其他内容。
+
+-----
 
 
 
