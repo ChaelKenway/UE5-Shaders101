@@ -516,6 +516,18 @@ Shader里的数学分析（也许是对的）。减去水平面的世界Z相当�
 
 ![0131-1](0131-1.png)
 
+# 32 Foliage Hiding Planes
+
+[Link](https://www.youtube.com/watch?v=U7Tg7uIeSeQ&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=32)
+
+如何让树叶少一点面片感？当摄像机向量几乎和面片法向垂直时，将其透明化即可。
+
+这里需要用世界位置的DDX和DDY叉乘计算出三角形的面法向。因为VertexNormal会产生渐变。
+
+![0132-1](0132-1.png)
+
+
+
 
 
 
