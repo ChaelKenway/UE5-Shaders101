@@ -568,6 +568,16 @@ Camera应用到树枝；Object应用到叶子。
 
 ![0134-1](0134-1.png)
 
+# 35 Foliage Camera Fade
+
+[Link](https://www.youtube.com/watch?v=Lb-SVAPlzfk&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=35)
+
+摄像机靠近树叶时，它会淡出。写进一个函数中。
+
+在shader中，将函数的输出连入DitherTAA，使用TAA让淡出更加自然（更吃性能）。
+
+![0135-1](0135-1.png)
+
 
 
 
