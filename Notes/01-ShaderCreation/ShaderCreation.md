@@ -526,9 +526,39 @@ Shader里的数学分析（也许是对的）。减去水平面的世界Z相当�
 
 ![0132-1](0132-1.png)
 
+# 33 Foliage Normals 
 
+[Link](https://www.youtube.com/watch?v=E_IiqijpfS0&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=33)
 
+通过调整法线使树叶面片不那么“面片”。
 
+1. face normals
+
+平面本身的朝向。
+
+2. bent normals
+
+可以在建模软件中将一个模型的法线烘焙到树叶的面片上。
+
+3. object pivot normals
+
+用树叶的世界坐标减去树的坐标，转换到切线空间，再与原法线混合。
+
+可以获得很平滑的法线。
+
+4. camera normals
+
+将相机向量从世界空间转到切线空间。使得树叶的法线时刻根据观察的视角变化。
+
+**这个彳亍。**
+
+![0133-1](0133-1.png)
+
+5. 混合法：Camera + Object Pivot
+
+Camera应用到树枝；Object应用到叶子。
+
+![0133-2](0133-2.png)
 
 
 
