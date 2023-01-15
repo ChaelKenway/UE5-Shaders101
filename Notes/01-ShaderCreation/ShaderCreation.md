@@ -560,6 +560,13 @@ Camera应用到树枝；Object应用到叶子。
 
 ![0133-2](0133-2.png)
 
+# 34 Foliage Ambient Occlusion
+
+[Link](https://www.youtube.com/watch?v=CptpQ5vSy0U&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=34)
+
+树叶的AO，即中心处暗，外处亮。用树叶位置-物体位置，除树的高度制作一个由内向外逐渐变白的渐变。使得树叶更有体积感。
+
+![0134-1](0134-1.png)
 
 
 
