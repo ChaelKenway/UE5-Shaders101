@@ -578,8 +578,12 @@ Camera应用到树枝；Object应用到叶子。
 
 ![0135-1](0135-1.png)
 
+# 36 Foliage Color Variation
 
+[Link](https://www.youtube.com/watch?v=7hJWd9ltkQw&list=PL78XDi0TS4lFlOVKsNC6LR4sCQhetKJqs&index=36)
 
+如果世界中有很多很多的树，如何让它们的树叶自动发生颜色变化？
 
+![0136-1](0136-1.png)
 
 
