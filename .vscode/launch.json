@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Shaders101 (Debug)",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "Shaders101 Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shaders101 (DebugGame)",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "Shaders101 Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shaders101 (Development)",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "Shaders101 Win64 Development Build",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shaders101 (Test)",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "Shaders101 Win64 Test Build",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shaders101 (Shipping)",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "Shaders101 Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shaders101Editor (Debug)",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "Shaders101Editor Win64 Debug Build",
+			"args": [
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shaders101Editor (DebugGame)",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "Shaders101Editor Win64 DebugGame Build",
+			"args": [
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shaders101Editor (Development)",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "Shaders101Editor Win64 Development Build",
+			"args": [
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+		}
+	]
+}

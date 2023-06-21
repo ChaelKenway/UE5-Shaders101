@@ -1,0 +1,27 @@
+[
+	{
+		"file": "D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Source\\Shaders101\\Shaders101.Build.cs",
+		"command": "\"D:\\Visual Studio 2019\\Visual Studio 2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\.vscode\\compileCommands_Default\\Shaders101.229.rsp\"",
+		"directory": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Source\\Shaders101\\Shaders101.cpp",
+		"command": "\"D:\\Visual Studio 2019\\Visual Studio 2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\.vscode\\compileCommands_Default\\Shaders101.229.rsp\"",
+		"directory": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Source\\Shaders101\\Shaders101.h",
+		"command": "\"D:\\Visual Studio 2019\\Visual Studio 2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\.vscode\\compileCommands_Default\\Shaders101.229.rsp\"",
+		"directory": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Source\\Shaders101\\Shaders101GameModeBase.cpp",
+		"command": "\"D:\\Visual Studio 2019\\Visual Studio 2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\.vscode\\compileCommands_Default\\Shaders101.229.rsp\"",
+		"directory": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Source\\Shaders101\\Shaders101GameModeBase.h",
+		"command": "\"D:\\Visual Studio 2019\\Visual Studio 2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\.vscode\\compileCommands_Default\\Shaders101.229.rsp\"",
+		"directory": "D:\\Epic Games\\UE_5.0\\UE_5.0\\Engine\\Source"
+	}
+]

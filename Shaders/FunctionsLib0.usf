@@ -1,0 +1,5 @@
+void PureColor(out float4 OutColor, float Intensity, float3 Color)
+{
+    Intensity = 1.0;
+    OutColor = float4(Color * Intensity, 1.0);
+}

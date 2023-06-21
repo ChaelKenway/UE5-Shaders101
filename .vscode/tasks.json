@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Shaders101 Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Debug",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Debug",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shaders101 Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Debug",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"DebugGame",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"DebugGame",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shaders101 Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"DebugGame",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Development",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Development",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shaders101 Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Development",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Test",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Test",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shaders101 Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Test",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Shipping",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Shipping",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shaders101 Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101 Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shaders101",
+				"Win64",
+				"Shipping",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101Editor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101Editor",
+				"Win64",
+				"Debug",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101Editor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101Editor",
+				"Win64",
+				"Debug",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shaders101Editor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101Editor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shaders101Editor",
+				"Win64",
+				"Debug",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101Editor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101Editor",
+				"Win64",
+				"DebugGame",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101Editor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101Editor",
+				"Win64",
+				"DebugGame",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shaders101Editor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101Editor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shaders101Editor",
+				"Win64",
+				"DebugGame",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101Editor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101Editor",
+				"Win64",
+				"Development",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101Editor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shaders101Editor",
+				"Win64",
+				"Development",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shaders101Editor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shaders101Editor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shaders101Editor",
+				"Win64",
+				"Development",
+				"D:\\Epic Games\\UE_5.0\\UE_5.0_Projects\\Shaders101\\Shaders101.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0\\UE_5.0"
+			}
+		}
+	]
+}

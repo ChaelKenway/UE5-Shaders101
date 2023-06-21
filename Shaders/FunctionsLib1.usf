@@ -1,0 +1,18 @@
+// #include "FunctionsLib0.usf"
+
+void PureColor(out float4 OutColor, float Intensity = 1.0, float3 Color)
+{
+    OutColor = float4(Color * Intensity, 1.0);
+}
+
+// @param Color 输出的颜色
+// @param UV 输入的UV
+// @param TileNum UV平铺数
+void Distance(out float4 Color, float2 UV, float TileNum = 2.0)
+{
+    UV = frac(UV * TileNum);
+
+    float2 Center = UV * 2.0 - 1.0;
+    Color = distance(0, Center);
+    Color = smoothstep(0.9, 1.0, Color);
+}
